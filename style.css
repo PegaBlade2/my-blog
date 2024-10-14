@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Torus Regular;
+    src: url("Torus\ Regular.otf") format("opentype");
+}
+
+/* Colors 
+#E2BFD9 Light Purple
+#F7EFE5 Brownish
+#C8A1E0 Slightly darker and more saturated purple
+#674188 Dark Purple
+
+Self-made colors
+#E2BFB9 Strawberry Youghurt 
+*/
+
+body {
+    text-align: center;
+    font-family: Torus Regular;
+    background-color: #E2BFB9;
+    margin: 2%;
+}
+
+.box-long {
+    line-height: 10%;
+    padding-block: 3%;
+    background-color: #C8A1E0;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box-long:hover{
+    background-color: #a082b2;
+}
