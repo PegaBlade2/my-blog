@@ -17,32 +17,22 @@ body {
     text-align: center;
     font-family: Torus Regular;
     background-color: #E2BFB9;
-    line-height: 0.5;
 }
 
-.box-long {
-    line-height: 10%;
-    padding-block: 3%;
-    background-color: #ada1e0;
-    width: 100%;
-    height: 40%;
-    border-radius: 20px;
-    cursor: pointer;
+.buttons {
+    display: inline-flex;
 }
 
-.box-long:hover{
-    background-color: #8d82b2;
-}
-
-.box {
-    line-height: 10%;
-    padding-block: 1px;
+.button {
     background-color: #C8A1E0;
-    width: 100%;
+    width: max-content;
+    padding-block: 1px;
+    padding-inline: 15px;
     border-radius: 20px;
     cursor: pointer;
+    margin-inline: 1vw;
 }
 
-.box:hover {
+.button:hover {
     background-color: #a486b6;
 }
